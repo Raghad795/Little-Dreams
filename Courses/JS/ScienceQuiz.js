@@ -1,47 +1,47 @@
 const questions =[
     {
-        question: "Which of the following letters is a vowel?",
+        question: "What is the science of cultivating land for growing food or raising animals?",
         answers: [
-            {text: "a. B", correct: false},
-            {text: "b. T", correct: false},
-            {text: "c. A", correct: true},
-            {text: "d. L", correct: false},
+            {text: "a. Physics", correct: false},
+            {text: "b. Geology", correct: false},
+            {text: "c. Agriculture", correct: true},
+            {text: "d. Biology", correct: false},
         ]
     },
     {
-        question: "What does the silent 'E' do to a word?",
+        question: "What constanlty reshapes what our planet's surface looks like?",
         answers: [
-            {text: "a. Adds an extra syllable", correct: false},
-            {text: "b. Changes the word's meaning", correct: false},
-            {text: "c. Makes the word sound louder", correct: false},
-            {text: "d. Makes the preceding vowel say its name", correct: true},
+            {text: "a. Weathering", correct: false},
+            {text: "b. Water", correct: false},
+            {text: "c. Erosion", correct: false},
+            {text: "d. All of the above", correct: true},
         ]
     },
     {
-        question: "Which of the following words is a noun?",
+        question: "What is a triangle-shaped piece of land that forms at the mouth of a river?",
         answers: [
-            {text: "a. Running", correct: false},
-            {text: "b. Happy", correct: false},
-            {text: "c. Dog", correct: true},
-            {text: "d. Fast", correct: false},
+            {text: "a. Island", correct: false},
+            {text: "b. Delta", correct: true},
+            {text: "c. Cave", correct: false},
+            {text: "d. Valley", correct: false},
         ]
     },
     {
-        question: "How many consonants are there in the word 'elephant'?",
+        question: "What is the condition of the air, or the atmosphere, on  our planet?",
         answers: [
-            {text: "a. 4", correct: false},
-            {text: "b. 5", correct: false},
-            {text: "c. 6", correct: false},
-            {text: "d. 7", correct: true},
+            {text: "a. Temperature", correct: false},
+            {text: "b. Wind", correct: false},
+            {text: "c. Humidity", correct: false},
+            {text: "d. Weather", correct: true},
         ]
     },
     {
-        question: "Which of the following words has a silent 'E'?",
+        question: "What are ice crystals that fall toward the ground, partly melt, and then refreeze?",
         answers: [
-            {text: "a. Cat", correct: false},
-            {text: "b. Cake", correct: true},
-            {text: "c. Dog", correct: false},
-            {text: "d. Bed", correct: false},
+            {text: "a. Snow", correct: false},
+            {text: "b. Rain", correct: false},
+            {text: "c. Sleet", correct: true},
+            {text: "d. Flakes", correct: false},
         ]
     }
 ];
@@ -131,48 +131,48 @@ startQuiz();
 
 const questionsLevel2 =[
     {
-        question: "Which of the following is an article?",
+        question: "What living organism can change light energy into chemical energy?",
         answers: [
-            {text: "a. She", correct: false},
-            {text: "b. It", correct: false},
-            {text: "c. The", correct: true},
-            {text: "d. They", correct: false},
+            {text: "a. Bugs", correct: false},
+            {text: "b. Plants", correct: true},
+            {text: "c. Fish", correct: false},
+            {text: "d. Mammals", correct: false},
         ]
     },
     {
-        question: "Which pronoun can be used to refer to a group of people?",
+        question: "What gets energy from eating both plants and meat?",
         answers: [
-            {text: "a. I", correct: false},
-            {text: "b. You", correct: false},
-            {text: "c. We", correct: true},
-            {text: "d. He", correct: false},
+            {text: "a. Omnivores", correct: true},
+            {text: "b. Carnivores", correct: false},
+            {text: "c. Herbivores", correct: false},
+            {text: "d. None of the above", correct: false},
         ]
     },
     {
-        question: "Which word is used to refer to something close to the speaker?",
+        question: "What model shows how energy flows between living things?",
         answers: [
-            {text: "a. This", correct: true},
-            {text: "b. That", correct: false},
-            {text: "c. Those", correct: false},
-            {text: "d. These", correct: false},
+            {text: "a. Food chain", correct: true},
+            {text: "b. Plant chart", correct: false},
+            {text: "c. Water cycle", correct: false},
+            {text: "d. All of the above", correct: false},
         ]
     },
     {
-        question: "Which pronoun can be used to refer to a non-specific person or thing?",
+        question: "What is the system of living things and their environment?",
         answers: [
-            {text: "a. He", correct: false},
-            {text: "b. She", correct: false},
-            {text: "c. It", correct: true},
-            {text: "d. They", correct: false},
+            {text: "a. Weather", correct: false},
+            {text: "b. Environment", correct: false},
+            {text: "c. Ecosystem", correct: true},
+            {text: "d. Temperature", correct: false},
         ]
     },
     {
-        question: "Which word is used to refer to something farther away from the speaker?",
+        question: "What is a characteristic that helps an organism live in its environment?",
         answers: [
-            {text: "a. This", correct: false},
-            {text: "b. That", correct: true},
-            {text: "c. These", correct: false},
-            {text: "d. Those", correct: false},
+            {text: "a. Adaptation", correct: true},
+            {text: "b. Growth", correct: false},
+            {text: "c. Linking", correct: false},
+            {text: "d. Aging", correct: false},
         ]
     }
 ];
@@ -261,47 +261,47 @@ startQuiz2();
 
 const questionsLevel3 =[
     {
-        question: "Which of the following is a proper noun?",
+        question: "What is an invisible line around which an object rotates, or spins?",
         answers: [
-            {text: "a. Dog", correct: false},
-            {text: "b. City", correct: true},
-            {text: "c. Book", correct: false},
-            {text: "d. Table", correct: false},
+            {text: "a. Horizon", correct: false},
+            {text: "b. Stability", correct: false},
+            {text: "c. Axis", correct: true},
+            {text: "d. Cord", correct: false},
         ]
     },
     {
-        question: "Which of the following is a linking verb?",
+        question: "What is a force that naturally pulls objects toward each other?",
         answers: [
-            {text: "a. Run", correct: false},
-            {text: "b. Jump", correct: false},
-            {text: "c. Is", correct: true},
-            {text: "d. Swim", correct: false},
+            {text: "a. Action", correct: false},
+            {text: "b. Gravity", correct: true},
+            {text: "c. Strength", correct: false},
+            {text: "d. Movement", correct: false},
         ]
     },
     {
-        question: "Which tense is used to talk about actions that have already happened?",
+        question: "What is an object that has gravitational pull stronger than anything else in space?",
         answers: [
-            {text: "a. Past", correct: true},
-            {text: "b. Present", correct: false},
-            {text: "c. Future", correct: false},
-            {text: "d. None", correct: false},
+            {text: "a. Black hole", correct: true},
+            {text: "b. Galaxy", correct: false},
+            {text: "c. Sun", correct: false},
+            {text: "d. Earth", correct: false},
         ]
     },
     {
-        question: "Which of the following is an example of a common noun?",
+        question: "Why can Mercury get very cold despite it's the closest to the sun?",
         answers: [
-            {text: "a. New York", correct: false},
-            {text: "b. Apple", correct: true},
-            {text: "c. Statue of Liberty", correct: false},
-            {text: "d. Monday", correct: false},
+            {text: "a. Faster at spining", correct: false},
+            {text: "b. Has too much gases", correct: false},
+            {text: "c. Lack of gases", correct: true},
+            {text: "d. Gravity strength", correct: false},
         ]
     },
     {
-        question: "Which tense is used to talk about actions that 'will' happen?",
+        question: "Where do most Martian dust storms come from?",
         answers: [
-            {text: "a. Past", correct: false},
-            {text: "b. Present", correct: false},
-            {text: "c. Future", correct: true},
+            {text: "a. Hellas Basin", correct: true},
+            {text: "b. Utopia Basin", correct: false},
+            {text: "c. Tharsis rise", correct: false},
             {text: "d. None", correct: false},
         ]
     }

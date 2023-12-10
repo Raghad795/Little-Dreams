@@ -1,47 +1,47 @@
 const questions =[
     {
-        question: "Which of the following letters is a vowel?",
+        question: "What is the result? 20 + 35 = .......",
         answers: [
-            {text: "a. B", correct: false},
-            {text: "b. T", correct: false},
-            {text: "c. A", correct: true},
-            {text: "d. L", correct: false},
+            {text: "a. 65", correct: false},
+            {text: "b. 55", correct: true},
+            {text: "c. 45", correct: false},
+            {text: "d. 50", correct: false},
         ]
     },
     {
-        question: "What does the silent 'E' do to a word?",
+        question: "What is the result? 24 - 15 = .......",
         answers: [
-            {text: "a. Adds an extra syllable", correct: false},
-            {text: "b. Changes the word's meaning", correct: false},
-            {text: "c. Makes the word sound louder", correct: false},
-            {text: "d. Makes the preceding vowel say its name", correct: true},
+            {text: "a. 6", correct: false},
+            {text: "b. 3", correct: false},
+            {text: "c. 9", correct: true},
+            {text: "d. 7", correct: false},
         ]
     },
     {
-        question: "Which of the following words is a noun?",
+        question: "How many units as a TEN made out of?",
         answers: [
-            {text: "a. Running", correct: false},
-            {text: "b. Happy", correct: false},
-            {text: "c. Dog", correct: true},
-            {text: "d. Fast", correct: false},
+            {text: "a. 9 units", correct: false},
+            {text: "b. 8 units", correct: false},
+            {text: "c. 5 units", correct: false},
+            {text: "d. 10 units", correct: true},
         ]
     },
     {
-        question: "How many consonants are there in the word 'elephant'?",
+        question: "How many digits does a HUNDRED have?",
         answers: [
-            {text: "a. 4", correct: false},
-            {text: "b. 5", correct: false},
-            {text: "c. 6", correct: false},
-            {text: "d. 7", correct: true},
+            {text: "a. 2 digits", correct: false},
+            {text: "b. 4 digits", correct: false},
+            {text: "c. 3 digits", correct: true},
+            {text: "d. 1 digit", correct: false},
         ]
     },
     {
-        question: "Which of the following words has a silent 'E'?",
+        question: "What is the number 135 made of?",
         answers: [
-            {text: "a. Cat", correct: false},
-            {text: "b. Cake", correct: true},
-            {text: "c. Dog", correct: false},
-            {text: "d. Bed", correct: false},
+            {text: "a. 3 hundred, 5 tens, 1 unit", correct: false},
+            {text: "b. 5 units, 3 tens, 1 hundred", correct: true},
+            {text: "c. 3 hundred, 1 ten, 5 unit", correct: false},
+            {text: "d. 1 unit, 3 tens, 5 hundred", correct: false},
         ]
     }
 ];
@@ -131,48 +131,48 @@ startQuiz();
 
 const questionsLevel2 =[
     {
-        question: "Which of the following is an article?",
+        question: "What is the result? 3 x 9 = .......",
         answers: [
-            {text: "a. She", correct: false},
-            {text: "b. It", correct: false},
-            {text: "c. The", correct: true},
-            {text: "d. They", correct: false},
+            {text: "a. 34", correct: false},
+            {text: "b. 25", correct: false},
+            {text: "c. 26", correct: false},
+            {text: "d. 27", correct: true},
         ]
     },
     {
-        question: "Which pronoun can be used to refer to a group of people?",
+        question: "What is the result? 35/5 = .......",
         answers: [
-            {text: "a. I", correct: false},
-            {text: "b. You", correct: false},
-            {text: "c. We", correct: true},
-            {text: "d. He", correct: false},
+            {text: "a. 5", correct: false},
+            {text: "b. 7", correct: true},
+            {text: "c. 3", correct: false},
+            {text: "d. 6", correct: false},
         ]
     },
     {
-        question: "Which word is used to refer to something close to the speaker?",
+        question: "What is the result? 6 x 12 = .......",
         answers: [
-            {text: "a. This", correct: true},
-            {text: "b. That", correct: false},
-            {text: "c. Those", correct: false},
-            {text: "d. These", correct: false},
+            {text: "a. 56", correct: false},
+            {text: "b. 45", correct: false},
+            {text: "c. 72", correct: true},
+            {text: "d. 62", correct: false},
         ]
     },
     {
-        question: "Which pronoun can be used to refer to a non-specific person or thing?",
+        question: "What is the distance between two points?",
         answers: [
-            {text: "a. He", correct: false},
-            {text: "b. She", correct: false},
-            {text: "c. It", correct: true},
-            {text: "d. They", correct: false},
+            {text: "a. Road", correct: false},
+            {text: "b. Longitude", correct: true},
+            {text: "c. Path", correct: false},
+            {text: "d. Altitude", correct: false},
         ]
     },
     {
-        question: "Which word is used to refer to something farther away from the speaker?",
+        question: "How  many centimeters does 1 meter have?",
         answers: [
-            {text: "a. This", correct: false},
-            {text: "b. That", correct: true},
-            {text: "c. These", correct: false},
-            {text: "d. Those", correct: false},
+            {text: "a. 15cm", correct: false},
+            {text: "b. 10cm", correct: false},
+            {text: "c. 1000cm", correct: false},
+            {text: "d. 100cm", correct: true},
         ]
     }
 ];
@@ -261,47 +261,47 @@ startQuiz2();
 
 const questionsLevel3 =[
     {
-        question: "Which of the following is a proper noun?",
+        question: "In a circumference, how is the distance for all points to the center?",
         answers: [
-            {text: "a. Dog", correct: false},
-            {text: "b. City", correct: true},
-            {text: "c. Book", correct: false},
-            {text: "d. Table", correct: false},
+            {text: "a. All different", correct: false},
+            {text: "b. All the same", correct: true},
+            {text: "c. Some are the same", correct: false},
+            {text: "d. It depends", correct: false},
         ]
     },
     {
-        question: "Which of the following is a linking verb?",
+        question: "What is the distance accross the circle through the center?",
         answers: [
-            {text: "a. Run", correct: false},
-            {text: "b. Jump", correct: false},
-            {text: "c. Is", correct: true},
-            {text: "d. Swim", correct: false},
+            {text: "a. Arc", correct: false},
+            {text: "b. Radius", correct: false},
+            {text: "c. Diameter", correct: true},
+            {text: "d. Point", correct: false},
         ]
     },
     {
-        question: "Which tense is used to talk about actions that have already happened?",
+        question: "What is a polygon made of?",
         answers: [
-            {text: "a. Past", correct: true},
-            {text: "b. Present", correct: false},
-            {text: "c. Future", correct: false},
-            {text: "d. None", correct: false},
+            {text: "a. Open polygonal curves", correct: false},
+            {text: "b. Closed polygonal curves", correct: true},
+            {text: "c. Open polygonal lines", correct: false},
+            {text: "d. Closed polygonal lines", correct: false},
         ]
     },
     {
-        question: "Which of the following is an example of a common noun?",
+        question: "How many sides does a Hexagon have?",
         answers: [
-            {text: "a. New York", correct: false},
-            {text: "b. Apple", correct: true},
-            {text: "c. Statue of Liberty", correct: false},
-            {text: "d. Monday", correct: false},
+            {text: "a. 7", correct: false},
+            {text: "b. 6", correct: true},
+            {text: "c. 8", correct: false},
+            {text: "d. 5", correct: false},
         ]
     },
     {
-        question: "Which tense is used to talk about actions that 'will' happen?",
+        question: "What triangle Has Two sides of the same length and one different?",
         answers: [
-            {text: "a. Past", correct: false},
-            {text: "b. Present", correct: false},
-            {text: "c. Future", correct: true},
+            {text: "a. Isosceles", correct: true},
+            {text: "b. Equilateral", correct: false},
+            {text: "c. Scalene", correct: false},
             {text: "d. None", correct: false},
         ]
     }

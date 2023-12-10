@@ -4,6 +4,8 @@ body {
     background-image: url(../Media/EngBackground.jpg);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 /*flex 1 so that the content takes the rest of the remaining space*/
@@ -13,12 +15,12 @@ body {
     padding-left: 150px;
 }
 
-.level-content > p{
+.level-content > h5{
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 90px;
-    padding-right: 120px;
-    margin-left: 50px;
+    padding-right: 100px;
+    margin-left: 200px;
     margin-right: 240px;
     text-align: center;
     font-weight: bolder;
@@ -143,6 +145,7 @@ ul li a{
     margin: 100px auto 0;
     border-radius: 10px;
     padding: 30px;
+    margin-top: 50px;
 }
 .app h1{
     font-size: 25px;
@@ -202,4 +205,145 @@ ul li a{
 }
 .incorrect{
     background: #ff9393;
+}
+
+/*Responsiveness*/
+
+@media screen and (max-width: 576px){
+
+    body {
+        align-content: flex-end;
+        justify-content: center;
+    }
+
+    .level-content > h5{
+        max-width: 1000px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        margin-left: 190px;
+        margin-right: 220px;
+        font-size: 18px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    .level-content iframe{
+        width: 450px;
+        height: 300px;
+        margin-right: 200px;
+    }
+
+    /*Sidebar*/
+    #sidebar{
+        width: 80px;
+        padding: 30px 10px;
+    }
+
+    .courseIcon-img{
+        width: 60px;
+    }
+    
+    ul li img{
+        width: 40px;
+        margin-bottom: -15px;
+        padding-right: 15px;
+        padding-left: 7px;
+    }
+
+    /*Quiz*/
+    .app{
+        margin: 100px auto 0;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    .app h1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    body {
+        align-content: flex-end;
+        justify-content: center;
+    }
+
+    .level-content > h5{
+        max-width: 1000px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        margin-left: 190px;
+        margin-right: 220px;
+        font-size: 20px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    .level-content iframe{
+        width: 600px;
+        height: 400px;
+        margin-right: 200px;
+    }
+
+    /*Sidebar*/
+    #sidebar{
+        width: 95px;
+        padding: 30px 10px;
+    }
+
+    .courseIcon-img{
+        width: 70px;
+    }
+    
+    ul li img{
+        width: 45px;
+        margin-bottom: -15px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+
+    body {
+        align-content: flex-end;
+        justify-content: center;
+    }
+
+    .level-content > h5{
+        max-width: 1000px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        margin-left: 190px;
+        margin-right: 220px;
+        font-size: 20px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    .level-content iframe{
+        width: 700px;
+        height: 450px;
+        margin-right: 200px;
+    }
+
+    /*Sidebar*/
+    #sidebar{
+        width: 120px;
+        padding: 30px 10px;
+    }
+
+    .courseIcon-img{
+        width: 70px;
+    }
+    
+    ul li img{
+        width: 50px;
+        margin-bottom: -15px;
+        padding-right: 15px;
+        padding-left: 25px;
+    }
 }
