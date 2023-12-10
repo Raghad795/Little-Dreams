@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+    body {
+        position: relative; 
+    }
+    
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+    </style>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+  
+  <nav class="navbar navbar-expand-sm bg-light text-dark fixed-top">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#section1">Section 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section2">Section 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section3">Section 3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section4">Section 4</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section5">Section 5</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section6">Section 6</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section7">Section 7</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section8">Section 8</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section9">Section 9</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+  
+  <div id="section1" class="container-fluid bg-success text-white" style="padding:100px 20px;">
+    <h1>part 1</h1>
+    <p>
+    
+      Once upon a time a girl named Goldilocks lived in a house at the edge of the woods. In those days curls of hair were called "locks."  She was "Goldilocks" because golden hair ran down her head and shoulders.</p>
+      <img src="../media/bear1.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+  </div>
+  
+
+  <div id="section2" class="container-fluid bg-warning" style="padding:100px 20px;">
+    <h1>part 2</h1>
+   
+  <p>One morning Goldilocks was out for a walk when she came across a beautiful bird.  She followed that bird right into the woods, where her mother had said many times she must never go.  But Goldilocks didn’t think of that.</p>
+  <img src="../media/bear2.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+
+  </div>
+  
+  <div id="section3" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+    <h1>part 3</h1>
+  
+    <p>Deeper and deeper into the woods she went. But where was the bird?  It was nowhere to be seen.  Goldilocks looked around.  That's when she knew she was lost.  
+      But a house was not far away.  “I wonder who lives there,” she thought, "so deep into the woods."
+    </p>
+    <img src="../media/bear3.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+
+  </div>
+
+ 
+
+  <div id="section4" class="container-fluid bg-success text-white" style="padding:100px 20px;">
+    <h1>part 4</h1>
+
+    <p>She went up and knocked on the door.  No answer.  She knocked again.  Still no answer.  Goldilocks knocked a third time and the door opened. But no one was behind the door.  
+
+      “Well, the door is already open,” said the girl. “So I may as well go in.”
+      Goldilocks smelled a wonderful smell, and soon knew why. On the table were three steaming bowls of oatmeal.  All of a sudden she realized how very hungry she was.
+      What Goldilocks did not know, however, is that three bears lived in this house.  In fact, that very morning the three bears had sat down to their bowls of oatmeal but the cereal was too hot.  So they had decided to take a short walk.  They said to each other, "By the time we return home our oatmeal will be perfect."
+  
+      Gazing at the steaming bowls of oatmeal, Goldilocks thought, “I'm sure whoever lives here won’t mind if I take just one sip.” She sat at the first chair and took a sip.  “Ah!” she said, “it is too hot.”
+  </p>
+  <img src="../media/bear4.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+  </div>
+
+  <div id="section5" class="container-fluid bg-warning" style="padding:100px 20px;">
+    <h1>part 5</h1>
+    <p>The girl saw a ladder and climbed it to an attic.  In a row, three beds were lined up – one big bed, one medium-sized bed, and a wee little bed.  
+
+      “I'm sure whoever lives here won’t mind if I lay down for just a short nap,” she said.  She laid down on the big bed but it was too hard.  She laid down on the medium-sized bed but it was too soft.  The girl laid down on the wee little bed, and it was just right!  As her head hit the pillow, Goldilocks was fast asleep.</p>
+      <img src="../media/bear5.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+
+  </div>
+
+  <div id="section6" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+    <h1>part 6</h1>
+    <p>Just then, the three bears came home from their walk.
+ 
+
+      “Not I,” said Papa Bear. 
+      "Not I," said Little Bear.
+
+Slowly the three bears stepped inside and looked around.    
+
+“Most odd!” said Papa Bear, seeing his spoon in his bowl.  “Someone has been eating my oatmeal!”
+
+“Most odd indeed!” said Mama Bear, also seeing her spoon in her bowl.  “Someone has been eating my oatmeal!”
+
+“This is the most odd of all!” said Little Bear.  “Someone has been eating my oatmeal and they ate it all up!”</p>
+<img src="../media/bear6.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+
+
+
+  </div>
+
+  
+  <div id="section7"class="container-fluid bg-success text-white" style="padding:100px 20px;">
+    <h1>part 7</h1>
+    <p>"This is the most odd of all!" said Little Bear.
+ 
+
+      The three bears were very surprised, as you can imagine.  With care, they stepped into their living room.
+      “Do you think someone was sitting in my chair?” said Papa Bear.
+  
+      “I know someone was sitting in my chair,” said Mama Bear, “because I can see the seat cushion is pushed down.”
+      
+      “And I know someone was sitting in my chair!” said Little Bear. “Because it’s all broken!”
+      
+      The three bears were even more surprised at that!  They climbed the ladder to their attic.  
+      
+      “Someone has been sleeping on my bed,” said Papa Bear, who could see that his blankets were moved.</p>
+      <img src="../media/bear7.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+
+
+  </div>
+
+  <div id="section8" class="container-fluid bg-warning" style="padding:100px 20px;">
+    <h1>part 8</h1>
+    <p>Goldilocks bolted awake.  Three bears were looming over her, and they did not look happy.
+
+      “Oh my!” said Goldilocks, jumping out of bed.  As quick as she could, she climbed down the ladder and ran out the front door.
+      
+      Little Bear chased after her.  "Wait, please!"
+      
+      Goldilocks stopped and turned around. 
+      
+      "Tell me," said Little Bear, “Why did you come inside our house?”
+      
+       
+      
+      Goldilocks stopped and turned around.
+       
+      
+      “I guess I didn’t think–,“ said Goldilocks. 
+      
+      “And why did you eat my oatmeal?” said Little Bear.
+      
+      “Well I guess I didn’t think–,“ said Goldilocks.</p>
+      <img src="../media/bear9.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+
+
+  </div>
+
+  <div id="section9" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+    <h1>part 9</h1>
+    <p>“I’m sorry about the chair,” said Goldilocks.  “I guess you saw it broke.”
+
+      "Yep," said Mama Bear with a frown.
+      
+      “I’m good at fixing things,” said Goldilocks, “If you have glue.”
+      
+      “Of course we have glue!” said Papa Bear. “What kind of bears do you think we are?”
+      
+      “I will make it up to you!” said Goldilocks. 
+      “Come on in then, dear,” said Mama Bear. 
+
+      “We'll start over,” said Papa Bear with a nod.
+      
+      “Come in, come in!” said Little Bear, jumping up and down.  
+      
+      With smiles, they skipped together inside the Bear’s house.</p>
+      <img src="../media/the-end.jpg" alt="HTML5 Icon" style="width:250px; height:150px;">
+
+
+  </div>
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

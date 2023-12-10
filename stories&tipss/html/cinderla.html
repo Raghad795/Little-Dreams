@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  body {
+      position: relative; 
+  }
+  
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+  </style>
+</head>
+
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+
+
+ 
+  
+<nav class="navbar navbar-expand-sm bg-light text-dark fixed-top">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#section1">Section 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section2">Section 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section3">Section 3</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section4">Section 4</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section5">Section 5</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section6">Section 6</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section7">Section 7</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section8">Section 8</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section9">Section 9</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section10">Section 10</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section11">Section 11</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section12">Section 12</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="section1" class="container-fluid bg-success text-white" style="padding:100px 20px;">
+  <h1>part 1</h1>
+  <p>ONCE UPON A TIME a girl named Cinderella lived with her stepmother and two stepsisters.  Poor Cinderella had to work hard all day long so the others could rest. It was she who had to wake up each morning when it was still dark and cold to start the fire.  It was she who cooked the meals. It was she who kept the fire going. The poor girl could not stay clean, from all the ashes and cinders by the fire.</p>
+<p>“What a mess!” her two stepsisters laughed.  And that is why they called her “Cinderella.”</p>
+<p>One day, big news came to town.  The King and Queen were going to have a ball!  It was time for the Prince to find a bride. All of the young ladies in the land were invited to come.  They were wild with joy! They would wear their most beautiful gown and fix their hair extra nice. Maybe the prince would like them!
+
+    At Cinderella’s house, she now had extra work to do.  She had to make two brand-new gowns for her step-sisters.  
+    
+    “Faster!” shouted one step-sister.
+    
+    “You call that a dress?” screamed the other.  
+    
+    “Oh, dear!” said Cinderella.  “When can I–“
+    The stepmother marched into the room.  “When can you WHAT?”</p>
+    <img src="../media/cind1.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+</div>
+
+<div id="section2" class="container-fluid bg-warning" style="padding:100px 20px;">
+  <h1>part 2</h1>
+  
+  <p>“Well,” said the girl, “when will I have time to make my own dress for the ball?”
+
+    “You?” yelled the stepmother.  “Who said YOU were going to the ball?”
+    
+    “What a laugh!” said one step-sister.
+    
+    “Such a mess!” They pointed at Cinderella.  All of them laughed.
+    
+    Cinderella said to herself, “When they look at me, maybe they see a mess.  But I am not that way.  And if I could, I WOULD go to the ball.”
+    
+    Soon the time came for the stepmother and step-sisters to leave for the big party.</p>
+    <p>Their fine carriage came to the door. The stepmother and step-sisters hopped inside.  And they were off.
+
+        “Good-bye!” called Cinderella.  “Have a good time!” But her stepmother and step-sisters did not turn around to see her.</p>
+        <p>“Ah, me!” said Cinderella sadly.  The carriage rode down the street.  She said aloud, “I wish I could go to the ball, too!”
+
+            Then - Poof!</p>
+            <img src="../media/cind2.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+</div>
+
+<div id="section3" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+  <h1>part 3</h1>
+  <p>All of a sudden, in front of her was a fairy.
+
+    “You called?” said the fairy.</p>
+    <p>“Did I?” said Cinderella.  “Who are you?”
+
+        “Why, your Fairy Godmother, of course!  I know your wish.  And I have come to grant it.”
+        
+        “But…” said Cinderella, “my wish is impossible.”
+        
+        “Excuse me!” said the Fairy Godmother in a huff.  “Did I not just show up out of thin air?”
+        
+        “Yes, you did,” said Cinderella.
+        
+        “Then let me be the one to say what is possible or not!”
+        
+        “Well, I think you know I want to go to the ball, too.” She looked down at her dirty clothes.
+        
+         “But look at me.”
+        
+        “You do look a bit of a mess, child,” said the Fairy Godmother.
+        
+        “Even if I had something nice to wear," said the girl, "I would have no way to get there."
+        
+        “Dear me, all of that is possible,” said the Fairy. With that, she tapped her wand on Cinderella’s head.</p>
+        <img src="../media/cind3.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+
+</div>
+
+
+
+<div id="section4" class="container-fluid bg-success text-white" style="padding:100px 20px;">
+  <h1>part 4</h1>
+  <p>At once, Cinderella was all clean.  She was dressed in a beautiful blue gown.  Her hair was set up high on her head inside a golden band.
+
+    “This is wonderful!” said Cinderella.</p>
+    <p>“Who said I was done?” said the Fairy Godmother.  She tapped her wand again. At once, a beautiful carriage came to be, with a driver and four white horses.</p>
+
+    <p>“Am I dreaming?” said Cinderella, looking around her.
+
+        “It is as real, as real can be,” said the Fairy Godmother.  “But there is one thing you must know.”
+        
+        “What is that?”
+        
+        “All of this lasts only to midnight.  Tonight, at the stroke of midnight, it will all be over.  Everything will go back to how it was before.”
+        Ezoic
+        
+        “Then I must be sure to leave the ball before midnight!” said Cinderella.
+        
+        “Good idea,” said the Fairy Godmother.  She stepped back. “My work is done.” And with that, the Fairy Godmother was gone.
+        
+        Cinderella looked around her.  "Did that even happen?"  But there she stood in a fine gown, and with a golden band in her hair.  And there were her driver and four horses before her, waiting.
+        
+        “Coming?” called the driver.
+        
+        She stepped into the carriage.  And they were off.
+        
+        Over at the ball, the Prince did not know what to think.  “Why do you have that sad look on your face?” the Queen said to her son.  “Look around you! You could not ask for finer maidens than these.”
+        
+        “I know, Mother,” said the Prince.  Yet he knew something was wrong. He had met many of the young women.  Yet after he said “hello,” one by one, he could find nothing more to say.
+        
+        "Look!"  Someone pointed to the front door.  “Who is that?”
+        
+        All heads turned.  Who was that lovely maiden stepping down the stairs?  She held her head tall and looked as if she belonged. But no one knew her.</p>
+        <img src="../media/cind4.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+</div>
+
+<div id="section5" class="container-fluid bg-warning" style="padding:100px 20px;">
+  <h1>part 5</h1>
+  <p>“There is something about her,” said the Prince to himself.  “I will ask her to dance.” And he walked over to Cinderella.
+
+    “Have we met?” said the Prince.
+    
+    “I am pleased to meet you now,” said Cinderella with a bow.
+    
+    “I feel as if I know you,” said the Prince.  “But of course, that is impossible.”</p>
+    <p>“Many things are possible,” said Cinderella, “if you wish them to be true.”
+
+        The Prince felt a leap in his heart.  He and Cinderella danced. When the song was over, they danced again.  And then they danced again, and yet again. Soon the other maidens at the ball grew jealous.  “Why is he dancing all the time with her?” they said. “How rude!”</p>
+        <img src="../media/cind5.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+</div>
+
+<div id="section6" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+  <h1>part 6</h1>
+  <p>But all the Prince could see was Cinderella.  They laughed and talked, and they danced some more.  In fact, they danced for so long that Cinderella did not see the clock.
+
+    “Dong!” said the clock.
+    
+    Cinderella looked up.  
+    
+    “Dong!” went the clock again.  
+    
+    She looked up again.  “Oh, my!” she cried out.  “It is almost midnight!”
+    
+    “Dong!” rung the clock.  
+    
+    “Why does that matter?” said the Prince.</p>
+    <img src="../media/cind6.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+
+
+
+</div>
+
+
+<div id="section7"class="container-fluid bg-success text-white" style="padding:100px 20px;">
+  <h1>part 7</h1>
+  <p>“Dong!” called the clock.
+
+    “I must go!” said Cinderella.  
+    
+    “Dong!” went the clock.
+    
+    “But we just met!” said the Prince.  “Why leave now?”
+    
+    “Dong!” rung the clock.
+    
+    “I must GO!” said Cinderella.  She ran to the steps.
+    
+    “Dong!” said the clock.
+    
+    “I cannot hear you,” said the Prince.  “The clock is too loud!”
+    
+    “Dong!” rung the clock.
+    
+    “Goodbye!” said Cinderella. Up, up the stairs she ran.
+    
+    “Dong!” went the clock.
+    
+    “Please, stop for a moment!” said the Prince.
+    
+    “Oh, dear!” she said as one glass slipper fell off her foot on the stair.  But Cinderella kept running up.
+    “Dong!” said the clock.
+
+    “Please wait a moment!” said the Prince.  
+    
+    “Dong!” rung the clock.
+    
+    “Goodbye!” Cinderella turned one last time.  Then she rushed out the door.
+    
+    “Dong!”  The clock was quiet. It was midnight.  
+    
+    “Wait!” called the Prince.  He picked up her glass slipper and rushed out the door.  </p>
+    <img src="../media/cind7.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+
+
+</div>
+
+<div id="section8" class="container-fluid bg-warning" style="padding:100px 20px;">
+  <h1>part 8</h1>
+ 
+
+  <p>He looked around but could not see her blue dress anywhere.  “This is all I have left from her,” he said, looking down at the glass slipper.  He saw that it was made in a special way, to fit a foot like none other. “Somewhere there is the other glass slipper,” he said.  “And when I find it, I will find her, too.  Then I will ask her to be my bride!”
+
+    From hut to hut, from house to house, went the Prince.  One young woman after another tried to fit her foot inside the glass slipper.  But none could fit. And so the Prince moved on.</p>
+    <img src="../media/cind8.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+
+
+</div>
+
+<div id="section9" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+  <h1>part 9</h1>
+  <p>At last the Prince came to Cinderella’s house.  
+
+    “He is coming!” called one step-sister as she looked out the window.
+    
+    “At the door!” screamed the other step-sister.  
+    
+    “Quick!” yelled the stepmother.  “Get ready! One of you must be the one to fit your foot in that slipper.  No matter what!”
+    
+    The Prince knocked.  The stepmother flew open the door.  “Come in!” she said. “I have two lovely daughters for you to see.”
+    
+    The first step-sister tried to place her foot in the glass slipper.  
+    
+     </p>
+     <img src="../media/cind9.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+
+
+</div>
+
+<div id="section10" class="container-fluid bg-success text-white" style="padding:100px 20px;">
+  <h1>part 10</h1>
+
+
+  <p>
+    She tried hard, but it just would not fit. Then the second step-sister tried to fit her foot inside.  She tried and tried with all her might, too. But no dice.
+    
+    “Are there no other young women in the house?” said the Prince.
+    
+    “None,” said the stepmother.
+    
+    “Then I must go,” said the Prince.
+    
+    “Maybe there is one more,” said Cinderella, stepping into the room.</p>
+    <img src="../media/cind10.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+
+</div>
+
+<div id="section11" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+  <h1>part 11</h1>
+ 
+  <p>“I thought you said there were no other young women here,” said the Prince.
+
+    “None who matter!” said the stepmother in a hiss.
+    
+    “Come here,” said the Prince.
+    
+    Cinderella stepped up to him.  The Prince got down on one knee and tried the glass slipper on her foot.  </p>
+    <img src="../media/cind11.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+
+
+</div>
+
+<div id="section12" class="container-fluid bg-success text-white" style="padding:100px 20px;">
+  <h1>part 12</h1>
+  <p>It fit perfectly! Then, from her pocket Cinderella took out something. It was the other glass slipper!
+
+    “I knew it!” he cried.  “You are the one!”
+    
+    “WHAT?” shouted a step-sister.  
+    
+    “Not HER!” screamed the other step-sister.
+    
+    “This cannot BE!” yelled the stepmother.  
+    
+    But it was too late.  The prince knew that Cinderella was the one.  He looked into her eyes. He did not see the cinders in her hair or the ashes on her face.
+    
+    “I have found you!” he said.
+    
+    “And I have found you,” said Cinderella.
+    And so Cinderella and the Prince were married, and they lived happily ever after.</p>
+    <img src="../media/cind12.webp" alt="HTML5 Icon" style="width:270px; height:270px;">
+   
+   
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+         
+             
+                              
+                    
+                    
+                                          
+                               
+
+
+</body>
+</html>

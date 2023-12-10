@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../CSS/gudie.css">
+    <link rel="stylesheet" href="../CSS/nav&foot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo&display=swap">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script defer src="../JS/nav.js"></script>
+</head>
+<body>
+
+
+  <nav>
+    <ul class="menu">
+      <li class="logo"><a href="#">LITTLE DREAMS</a></li>
+      <li class="item"><a href="../../index.html">Home</a></li>
+      <li class="item"><a href="../html/aboutUs.html">About</a></li>
+      <li class="item"><a href="../../CoursePages/HTML/Courses.html">Courses</a></li>
+      <li class="item"><a href="../html/story.html">Stories</a></li>
+      <li class="item"><a href="../../activity/HTML/activity.html">Activites</a></li>
+      <li class="item"><a href="../html/guids.html">Tips</a></li>
+      <li class="item button"><a href="../../activity/HTML/signIn.html">Sin in</a></li>
+      <li class="item button secondary"><a href="../../activity/HTML/signUp.html">Sin up</a></li>
+        <li class="toggle"><span class="bars"></span></li>
+    </ul>
+</nav>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <iframe width="1150" height="345" src="https://www.youtube.com/embed/DqhqIfHww7g?si=weU_w3z9JEzd99G2" >
+</iframe>
+  <div class="text">How to cook!</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+<iframe width="1150" height="345" src="https://www.youtube.com/embed/q_Gm8-5bo-4?si=G1KDiDluf8iA36hK">
+</iframe>
+  <div class="text">How to clean!</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <iframe width="1150" height="345" src="https://www.youtube.com/embed/v-mlEQ7KW5Q?si=5N3a9WE1q6BVbxGN">
+</iframe>
+  <div class="text">How to BUDGET/MONEY MANAGEMENT!</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <iframe width="1150" height="345" src="https://www.youtube.com/embed/aHVR2FnTpdk?si=mfMb_yM8DtKKO9Bs">
+</iframe>
+  <div class="text">How to Exercises at home!</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+
+<footer>
+  <div class="footerContainer">
+      <div class="socialIcon">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      <div class="footerNav">
+          <ul>
+              <li><a href="../../index.html">Home</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="../html/aboutUs.html">About</a></li>
+              <li><a href="../../CoursePages/HTML/Contact.html">Contact Us</a></li>
+              <li><a href="#">Help</a></li>
+          </ul>
+      </div>
+  </div>
+</footer>
+
+<script>
+  $(function() {
+$(".toggle").on("click", function(){
+if($(".item").hasClass("active")){
+$(".item").removeClass("active");
+}
+else{
+$(".item").addClass("active");
+}
+})
+
+});
+  let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html> 

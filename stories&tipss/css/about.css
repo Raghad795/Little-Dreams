@@ -1,0 +1,98 @@
+*{
+  padding:0;
+  margin: 0;
+}
+body{
+  background-image: url("../media/about7.jpg");
+}
+h1 {
+  padding-top: 100px;
+    text-shadow: 2px 2px;
+  }
+a{
+  color: #595f82;
+}
+.boddy{
+  max-width: 60em;
+  margin: 32px ;
+  align-items: center;
+  padding-bottom:150px;
+}
+table th,
+table td{
+  text-align: left;
+}
+table.layout{
+  width: 100%;
+  border-collapse: collapse;
+}
+table.d{
+  margin: 1em 0;
+}
+table.d th,
+table.d td{
+  border: 1px solid #75b9d4;
+  padding: .5em 1em;
+}
+
+table.d th{ background: rgb(113, 115, 192) }
+table.d td{ background: #fff; }
+
+table.respon-t{
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 30em){
+    table.respon-t{
+      box-shadow: none;  
+    }
+    table.respon-t thead{
+      display: none; 
+    }
+  table.d th,
+  table.d td{
+    padding: .5em;
+  }
+    
+  table.respon-t td:nth-child(1):before{
+    content: 'Number';
+  }
+  table.respon-t td:nth-child(2):before{
+    content: 'Name';
+  }
+  table.respon-t td:nth-child(1),
+  table.respon-t td:nth-child(2){
+    padding-left: 25%;
+  }
+  table.respon-t td:nth-child(1):before,
+  table.respon-t td:nth-child(2):before{
+    position: absolute;
+    left: .5em;
+    font-weight: bold;
+  }
+  
+    table.respon-t tr,
+    table.respon-t td{
+        display: block;
+    }
+    table.respon-t tr{
+        position: relative;
+        margin-bottom: 1em;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    }
+    table.respon-t td{
+        border-top: none;
+    }
+    table.respon-t td.num{
+        background: rgb(113, 165, 193), 207, 224;
+        border-top: 1px solid #8f92d4;
+    }
+    table.respon-t td.cont  {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: none;
+        background: none;
+    }
+}
+
