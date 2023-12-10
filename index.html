@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LITTLE DREAMS</title> 
+    <link rel="stylesheet" href="./CSS/nav&foot.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./JS/nav.js"></script>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="#">LITTLE DREAMS</a></li>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="#">About</a></li>
+            <li class="item"><a href="./CoursePages/HTML/Courses.html">Courses</a></li>
+            <li class="item"><a href="#">Stories</a></li>
+            <li class="item"><a href="./activity/HTML/activity.html">Activites</a></li>
+            <li class="item"><a href="#">Tips</a></li>
+            <li class="item button"><a href="./activity/HTML/signIn.html">Sin in</a></li>
+            <li class="item button secondary"><a href="./activity/HTML/signUp.html">Sin up</a></li>
+            <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav>
+    <!--Home section starts-->
+
+    <section class="about">
+        <div class="about-contet">
+            <h2>LITTLE DREAMS</h2>
+            <p>Our website is a thorough and interesting learning resource created with kids in mind. <br>
+                In addition to engaging stories and interactive worksheets, we provide a wide variety of courses in science, math, and English. <br>
+                Through creative and difficult instructional materials, we support kids' growth in reading, writing, and critical thinking.<br> 
+                Our mission is to make learning exciting and motivating for kids so they will love to learn and develop their abilities and creativity.</p>
+        </div>
+    </section> 
+
+
+    <section class="home" id="home">
+        <div class=" swiper mySwiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide ">
+                    <div class="box" style="background: url(././media/background1.jpg);">
+                        <div class="content">
+                            <h3>LITTLE DREAMS</h3>
+                            <span>Children's Courses, Stories, and Activities Website</span>
+                            <p>Explore our diverse collection of fun and exciting educational courses! <br> We offer a wide range of courses in various fields for children of all ages</p>
+                            <a href="#" class="btn">show page courses</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(././media/background2.jpg);">
+                        <div class="content">
+                            <h3>LITTLE DREAMS</h3>
+                            <span>Children's Courses, Stories, and Activities Website</span>
+                            <p>We offer you a wonderful collection of exciting and inspiring stories.</p>
+                            <a href="#" class="btn">show Stories</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(././media/background3.jpg);">
+                        <div class="content">
+                            <h3>LITTLE DREAMS</h3>
+                            <span>Children's Courses, Stories, and Activities Website</span>
+                            <p>we offer a diverse range of interactive and <br>engaging activities aimed at enhancing children's learning and<br> developing their skills in an innovative and enjoyable way.</p>
+                            <a href="#" class="btn">show Activities</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+   <!--Home section ends-->
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcon">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="./CoursePages/HTML/Contact.html">Contact Us</a></li>
+                    <li><a href="">Help</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".home-slider", {
+          pagination: {
+            el: ".swiper-pagination",
+            clickble: true,
+          },
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+          },
+          loop:true,
+        });
+    </script>
+</body>
+</html>

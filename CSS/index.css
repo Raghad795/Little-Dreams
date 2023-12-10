@@ -1,0 +1,90 @@
+body{
+    background: url("../Media/background.jpg");
+}
+.about{
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.5);
+    align-items: center;
+    padding: 50px 100px;
+
+}
+.about h2{
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.about p{
+    font-size: 19px;
+    color: black;
+    text-align: center;
+}
+
+.home{
+    padding: 70px 100px;
+}
+.home .home-slider{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,1);
+    border: .1rem solid rgba(0,0,0,.3);
+    border-top: 0;
+}
+.home .home-slider .box{
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 40rem;
+    position: relative;
+}
+.home .home-slider .box .content{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    max-width: 50rem;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.home .home-slider .box .content span{
+    font-size: 3rem;
+    color: #444;
+}
+.home .home-slider .box .content h3{
+    font-size: 3rem;
+    color: #333;
+    padding: .5rem 0;
+}
+.home .home-slider .box .content span{
+    font-size: 2rem;
+    color: #333;
+    padding: .5rem 0;
+}
+.home .home-slider .box .content p{
+    font-size: 1rem;
+    color: #333;
+    padding: .5rem 0;
+    font-weight: bold;
+}
+.home .home-slider .box .content a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to left,#F89B9E,#C9D9FF);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+@media  all and (max-width:468px){
+    .home{
+        padding: 30px 50px;
+    }
+    .about{
+        padding: 20px -40px;
+    }
+    .about h2{
+        font-size: 20px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .about p{
+        font-size: 15px;
+    }
+}
