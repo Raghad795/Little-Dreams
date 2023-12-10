@@ -22,7 +22,7 @@ body: JSON.stringify({ fullName: fullName, gender: gender , mobile: mobile , dob
 })
 .then(function (response) {
 if (response.ok) {
-    alert("Data inserted successfully!");
+    alert("Thank you for reaching us; feedback will be very soon");
     document.getElementById("fullName").value = "";
     document.getElementById("gender").value = "";
     document.getElementById("mobile").value = "";
